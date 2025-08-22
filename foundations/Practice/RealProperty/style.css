@@ -30,11 +30,11 @@ ul {
 }
 
 .header {
-    padding: 18px 0;
     height: 56px;
 }
 
 .header .container {
+    padding: 18px 0;
     height: 100%;
     display: flex;
     justify-content: space-between;
@@ -47,6 +47,18 @@ ul {
     gap: 16px;
 }
 
+.left-links li a {
+    color: gray;
+}
+
+.right-links li a {
+    color: gray;
+}
+.left-links li .active {
+    color: black;
+    font-weight: 700;
+}
+
 .logo-div .logo {
     width: 200px;
 }
@@ -55,4 +67,13 @@ ul {
     display: flex;
     justify-content: space-between;
     gap: 16px;
+}
+
+.right-links .login-btn {
+    border: 1px lightgreen solid;
+    border-radius: 12px;
+    padding: 6px 18px;
+    font-size: 18px;
+    color: green;
+    font-weight: 600;
 }
