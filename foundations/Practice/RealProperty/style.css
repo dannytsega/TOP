@@ -23,3 +23,36 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 18px 0;
+    height: 56px;
+}
+
+.header .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.logo-div .logo {
+    width: 200px;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
