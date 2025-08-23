@@ -96,7 +96,7 @@ ul {
 .hero .container h1 {
     color: white;
     font-weight: 700;
-    font-size: 48px;
+    font-size: 56px;
     margin-top: 48px;
     text-align: center;
     margin-bottom: 16px;
@@ -141,6 +141,7 @@ ul {
     display: flex;
     gap: 4px;
     margin-top: 16px;
+    align-items: flex-end;
 }
 
 .hero .container .choice-card .card-form label {
@@ -149,13 +150,13 @@ ul {
     font-size: 12px;
 }
 
-.hero .container .choice-card .card-form input {
+.hero .container .choice-card .card-form select {
     border: none;
     border-radius: 12px;
     padding: 4px 8px;
-    margin-top: 4px;
+    margin-top: 8px;
     background-color: lightgray;
-    width: 50%;
+    flex: 1;
 }
 
 .hero .container .choice-card .card-form .card-btn {
@@ -164,4 +165,6 @@ ul {
     border-radius: 18px;
     background-color: green;
     color: white;
+    height: 30px;
+    flex: 1;
 }
