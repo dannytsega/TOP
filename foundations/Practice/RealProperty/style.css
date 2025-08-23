@@ -120,16 +120,19 @@ ul {
 .hero .container .choice-card .card-menu ul{
     display: flex;
     justify-content: center;
-    margin-left: 16px;
     font-weight: 500;
+}
+
+.hero .container .choice-card .card-menu ul li {
+    display: flex;
+    padding: 0 12px;
 }
 
 .hero .container .choice-card .card-menu ul li a {
     color: black;
-    padding: 0 12px;
 }
 
-.hero .container .choice-card .card-menu ul li .home-link {
+.hero .container .choice-card .card-menu ul .home-link {
     border-bottom: 2px solid black;
 
 }
