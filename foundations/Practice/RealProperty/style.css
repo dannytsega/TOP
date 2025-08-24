@@ -171,12 +171,17 @@ ul {
 
 .our-info {
     padding: 32px 0;
+    height: 400px;
 }
 
 .our-info .container {
     display: flex;
     justify-content: space-between;
-    padding: 24px 0;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+    height: 100%;
+    border-bottom: 1px solid lightgray;
 }
 
 .our-info .container .info-left-side{
