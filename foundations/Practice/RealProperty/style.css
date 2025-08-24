@@ -324,3 +324,27 @@ ul {
 .benefit .container .third-item p {
     color: rgb(87, 87, 87);
 }
+
+.companies {
+    height: 500px;
+    margin-top: 8px;
+}
+
+.companies .companies-container {
+    height: 80%;
+    max-width: 1200px;
+    border-radius: 16px;
+    background-color: lightblue;
+    margin: 0 auto;
+}
+
+.companies .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.companies .container img {
+    width: 120px;
+}
