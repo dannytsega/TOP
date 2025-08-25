@@ -348,3 +348,102 @@ ul {
 .companies .container img {
     width: 120px;
 }
+
+.recommendation{
+    margin: 48px 0;
+}
+
+.recommendation .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.recommendation .container h2 {
+    font-size: 36px;
+    color: black;
+    font-weight: 700;
+}
+
+.recommendation .container .rec-left {
+    flex: 2;
+}
+
+.recommendation .container .rec-right {
+    flex: 2;
+}
+
+.recommendation .container .rec-right p {
+    font-weight: 300;
+    color: black;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.recommendation .container .rec-right button {
+    border: none;
+    border-radius: 24px;
+    background-color: green;
+    color: white;
+    font-weight: 700;
+    padding:16px 24px;
+}
+
+.recommendation .rec-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 4px;
+    margin-top: 24px;
+}
+
+.recommendation .rec-lower .img-1 {
+    width: 50px;
+    height: 200px;
+    background-color: red;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+
+.recommendation .rec-lower .img-2 {
+    width: 150px;
+    height: 250px;
+    background-color: green;
+    border-radius: 18px;
+    flex: 1;
+}
+
+.recommendation .rec-lower .img-3 {
+    width: 230px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 18px;
+    flex: 2;
+}
+
+.recommendation .rec-lower .img-4 {
+    width: 150px;
+    height: 250px;
+    background-color: blueviolet;
+    border-radius: 18px;
+    flex: 1;
+}
+
+.recommendation .rec-lower .img-5 {
+    width: 230px;
+    height: 160px;
+    background-color: chocolate;
+    border-radius: 18px;
+    flex: 2;
+}
+
+.recommendation .rec-lower .img-6 {
+    width: 50px;
+    height: 250px;
+    background-color: darkgreen;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    flex: 1;
+}
