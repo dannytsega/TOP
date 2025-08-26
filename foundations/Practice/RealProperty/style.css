@@ -456,7 +456,7 @@ ul {
 
 .testimonial .container {
     height: 100%;
-    background-color: lightgray;
+    background-color: rgb(235, 234, 234);
     border-radius: 12px;
     display: flex;
     flex-direction: column;
