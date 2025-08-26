@@ -447,3 +447,81 @@ ul {
     border-bottom-left-radius: 18px;
     flex: 1;
 }
+
+.testimonial {
+    margin-top: 32px;
+    height: 400px;
+    padding-bottom: 24px;
+}
+
+.testimonial .container {
+    height: 100%;
+    background-color: lightgray;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.testimonial .container h3 {
+    font-size: 32px;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.testimonial .container p {
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+    width: 60%;
+    margin-bottom: 12px;
+}
+
+.testimonial .container .avatar {
+    width: 60px;
+    height: 60px;
+    background-color: aqua;
+    border-radius: 100%;
+    margin-bottom: 12px;
+}
+
+
+.testimonial .container h4 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.testimonial .container span {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.testimonial .container .dot-container {
+    display: flex;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.testimonial .container .dot-container .dot-1 {
+    width: 12px;
+    height: 12px;
+    background-color: lightblue;
+    border-radius: 100%;
+}
+
+.testimonial .container .dot-container .dot-2 {
+    width: 12px;
+    height: 12px;
+    background-color: darkblue;
+    border-radius: 100%;
+}
+
+.testimonial .container .dot-container .dot-3 {
+    width: 12px;
+    height: 12px;
+    background-color: lightblue;
+    border-radius: 100%;
+}
